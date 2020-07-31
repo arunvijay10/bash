@@ -1,0 +1,7 @@
+#!/bin/bash
+mkdir Gott
+cd Gott
+touch readme.txt
+
+
+
