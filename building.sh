@@ -13,7 +13,12 @@ then
 	echo  "Enter The ip To Scan"
 	read  ip
 	nmap $ip
+elif [ $num -eq 2 ]
+then
+	echo  "zenmap starting.."
+	sleep 4
+	zenmap	
 else
-	echo -e "you have choosen zenmap"
+	echo  -e "choose the right option"
 
 fi
