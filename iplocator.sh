@@ -11,6 +11,9 @@ if [ $ch -eq 1 ]
 then
 	echo "Ip Detail's are starting..."
 	sleep 2
+	echo "Enter Target Ip"
+	read ip
+	curl -s https://ipinfo.io/$ip
 elif [ $ch -eq 2 ]
 then
 	echo "Geolocation starting.."
